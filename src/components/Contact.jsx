@@ -6,9 +6,11 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
-//template_nr1ky9j
-//service_myyazx7
-//IVddbOopluUE_is2b
+
+const pub = import.meta.env.VITE_EMAIL_PUBLIC_KEY
+const service = import.meta.env.VITE_EMAIL_SERVICE_ID
+const temp = import.meta.env.VITE_EMAIL_TEMPLATE_ID
+
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -28,15 +30,14 @@ const Contact = () => {
       [name]: value,
     });
   };
-
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
 
     emailjs
       .send(
-        'service_myyazx7',
-        'template_nr1ky9j',
+        service,
+        temp,
         {
           from_name: form.name,
           to_name: "Ayush Dutt Sharma",
@@ -44,7 +45,7 @@ const Contact = () => {
           to_email: "duttsharmarahul17@gmail.com",
           message: form.message,
         },
-        'IVddbOopluUE_is2b'
+        pub
       )
       .then(
         () => {
