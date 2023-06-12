@@ -23,6 +23,8 @@ import {
   shopify,
   carrent,
   jobit,
+  Job_Search,
+  promptopia,
   tripguide,
   threejs,
 } from "../assets";
@@ -212,59 +214,38 @@ const testimonials = [
 ];
 
 const projects = [
-  {
-    name: "Car Rent",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
+  // {
+  //   name: "Car Rent",
+  //   description:
+  //     "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "mongodb",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "tailwind",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: carrent,
+  //   source_code_link: "https://github.com/",
+  // },
   {
     name: "Job IT",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "App that enables users to search for job openings, and locate available jobs based on their current location.",
     tags: [
       {
-        name: "react",
+        name: "react-native",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
+        name: "rapidAPI",
         color: "green-text-gradient",
       },
       {
@@ -272,8 +253,32 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: Job_Search,
+    source_code_link: "https://github.com/Ayush-Dutt-Sharma/job-search-app",
+    demo_link: "https://expo.dev/@ayush_dutt_sharma/jobsift?serviceType=classic&distribution=expo-go",
+  },
+  {
+    name: "AI Prompts",
+    description:
+      "A web app that allows users to search and share AI prompts, which can be used to generate great AI results.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongoose",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: promptopia,
+    source_code_link: "https://github.com/Ayush-Dutt-Sharma/promptopia",
+    demo_link: "https://promptopia-dusky-alpha.vercel.app/",
+  
   },
 ];
 

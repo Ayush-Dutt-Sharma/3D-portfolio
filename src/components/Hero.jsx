@@ -19,15 +19,36 @@ const Hero = () => {
             Hi, I'm <span className='text-[#915EFF]'>Ayush</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop full-stack applications and user <br className='sm:block hidden' />
-            interfaces.
+            {/* I develop full-stack applications and user <br className='sm:block hidden' />
+            interfaces. */}
+          Software Engineer with 3 years of experience in <br/>
+           React,
+           React Native,
+           Next.js,
+           
+           Node,<br/>
+           Mongo,
+           CSS,
+           state management like Redux,<br/>
+           web technologies like HTML5,
+           CSS3,
+           JavaScript,<br/>
+           building large-scale web/app applications,<br/>
+           cross-browser platforms,<br/>
+           and design constraints on the web/app,<br/>
+           and building responsive user interfaces.
+          {/* </p> */}
+          
+          {/* </p> */}
+          {/* <p className={`${styles.heroSubText} mt-2 text-white-100`} Node, Mongo, CSS and state management like Redux with proficiency in web technologies like HTML5, CSS3, JavaScript, building large-scale web/app applications, cross-browser platforms, and design constraints on the web/app, and building responsive user interfaces.  */}
+
           </p>
         </div>
       </div>
 
-      <ComputersCanvas />
+      {/* <ComputersCanvas /> */}
 
-      <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
+      <div className='absolute  xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
           <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
             <motion.div
