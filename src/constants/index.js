@@ -163,7 +163,7 @@ const experiences = [
     company_name: "Softpixel",
     icon: softpixel,
     iconBg: "#E6DEDD",
-    date: "Sep 2023 - Present",
+    date: "Sep 2022 - Present",
     points: [
       "Build scalable and high-performance web applications using the MERN (MongoDB, Express.js, React, Node.js) stack.",
       "Implemented user authentication and authorization using industry-standard protocols and libraries (e.g., JWT, OAuth).",
